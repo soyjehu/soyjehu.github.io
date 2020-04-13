@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="script.js"></script>
+
+  <title>jehú</title>
+
+</head>
+
+<body>
+  <div class="content">
+
+    <div id="bigimagecontainer" class="bigimage-container" onclick="removeOpenClass(event);">
+      <div class="bigImage">
+        <div id="maximizeThisImagePlease"></div>
+      </div>
+    </div>
+
+    <section id="home" class="active">
+      <div class="home-menu">
+        <h4 data-name="cartones" id="cartonesButton">cartones</h4>
+        <h4 data-name="historietas" id="historietasButton">historietas</h4>
+        <h4 data-name="ilustraciones" id="ilustracionesButton">ilustraciones</h4>
+        <h4 data-name="libros" id="librosButton">
+          libros completos
+        </h4>
+        <h1 class="mail-responsive">jehucoronadolopez@gmail.com</h1>
+      </div>
+
+      <div class="mail">
+        <h1>jehucoronadolopez@gmail.com</h1>
+      </div>
+
+      <div class="profile-content">
+        <h1>jehú</h1>
+        <div id="profile-container" class="yo-container">
+          <img src="assets/yo.jpg" alt="yo">
+        </div>
+      </div>
+    </section>
+
+    <section id="cartones" class="page">
+      <div data-name="cartones" id="cartonesBack" class="top-menu">
+        <div data-name="cartones" class="left-arrow">
+          ←
+        </div>
+        <h1 data-name="cartones">CARTONES</h1>
+      </div>
+      <div class="image-array">
+        <div data-imager="assets/cartones/acupuntura-derecho.jpg" class="maximize image-container"
+          style="background-image: url('assets/cartones/acupuntura-derecho.jpg');">
+        </div>
+        <div data-imager="assets/cartones/brazos-peludos.jpg" class="maximize image-container"
+          style="background-image: url('assets/cartones/brazos-peludos.jpg');">
+        </div>
+        <div data-imager="assets/cartones/desayuno.jpg" class="maximize image-container"
+          style="background-image: url('assets/cartones/desayuno.jpg');">
+        </div>
+        <div data-imager="assets/cartones/fila.jpg" class="maximize image-container"
+          style="background-image: url('assets/cartones/fila.jpg');">
+        </div>
+      </div>
+    </section>
+
+    <section id="historietas" class="page">
+      <div data-name="historietas" id="historietasBack" class="top-menu">
+        <div data-name="historietas" class="left-arrow">
+          ←
+        </div>
+        <h1 data-name="historietas">Historietas</h1>
+      </div>
+      <div class="image-array">
+        <div data-imager="assets/historietas/Comic_Banarse.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Banarse.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Dolores.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Dolores.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Domingo_Apocaliptico.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Domingo_Apocaliptico.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Domingo_Celular.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Domingo_Celular.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Domingo_Gemelo.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Domingo_Gemelo.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Domingo_Mosqueado.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Domingo_Mosqueado.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Martes.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Martes.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Pajaro_Negro.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Pajaro_Negro.jpg');">
+        </div>
+        <div data-imager="assets/historietas/Comic_Transgenico.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/Comic_Transgenico.jpg');">
+        </div>
+        <div data-imager="assets/historietas/El_hombre_cabeza_de_lavadora.jpg" class="maximize image-container"
+          style="background-image: url('assets/historietas/El_hombre_cabeza_de_lavadora.jpg');">
+        </div>
+      </div>
+    </section>
+
+    <section id="ilustraciones" class="page">
+      <div data-name="ilustraciones" id="ilustracionesBack" class="top-menu">
+        <div data-name="ilustraciones" class="left-arrow">
+          ←
+        </div>
+        <h1 data-name="ilustraciones">Ilustraciones</h1>
+      </div>
+      <div class="image-array">
+        <div data-imager="assets/ilustraciones/autorretrato.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/autorretrato.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/carro.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/carro.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/garza_asada.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/garza_asada.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/gato_estirandose.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/gato_estirandose.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/jiustonenvivo.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/jiustonenvivo.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/monje.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/monje.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/sabila.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/sabila.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/taquitos_con_marco.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/taquitos_con_marco.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/tuna_no.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/tuna_no.jpg');">
+        </div>
+        <div data-imager="assets/ilustraciones/yo_cuarentena.jpg" class="maximize image-container"
+          style="background-image: url('assets/ilustraciones/yo_cuarentena.jpg');">
+        </div>
+      </div>
+    </section>
+
+    <section id="libros" class="page">
+      <div data-name="libros" id="librosBack" class="top-menu">
+        <div data-name="libros" class="left-arrow">
+          ←
+        </div>
+        <h1 data-name="libros">Libros</h1>
+      </div>
+      <div class="image-array">
+        <div data-book="assets/libroscompletos/ComediantesDeprimidos.pdf" class="download image-container"
+          style="background-image: url('assets/libroscompletos/ComediantesDeprimidos.png');">
+        </div>
+        <div data-book="assets/libroscompletos/FuiArrastradoDebajoDeLaCamaPorUnDemonio-Jehu.pdf"
+          class="download image-container"
+          style="background-image: url('assets/libroscompletos/FuiArrastradoDebajoDeLaCamaPorUnDemonio-Jehu.png');">
+        </div>
+        <div data-book="assets/libroscompletos/La-luz-que-no-ilumina-todo-Jehu-1.pdf" class="download image-container"
+          style="background-image: url('assets/libroscompletos/La-luz-que-no-ilumina-todo-Jehu-1.png');">
+        </div>
+        <div data-book="assets/libroscompletos/La-senora-que-volaba.pdf" class="download image-container"
+          style="background-image: url('assets/libroscompletos/La-senora-que-volaba.png');">
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</html>

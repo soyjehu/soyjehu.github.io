@@ -238,11 +238,11 @@ section.page.active {
     display: block;
   }
 
-  .maximize {
+  .download, .maximize {
     cursor: pointer;
     border: 1px solid white;
   }
-  .maximize:hover, .maximize.focus {
+  .download:hover, .download:focus, .maximize:hover, .maximize.focus {
     border: 1px solid black;
   }
 }

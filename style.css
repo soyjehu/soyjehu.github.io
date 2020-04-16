@@ -237,6 +237,14 @@ section.page.active {
   .mail {
     display: block;
   }
+
+  .maximize {
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .maximize:hover, .maximize.focus {
+    border: 1px solid black;
+  }
 }
 
 /* Medium Devices, Desktops */

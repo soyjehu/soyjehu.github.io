@@ -180,6 +180,20 @@ section.page.active {
   background-position: center;
 }
 
+.maximize.loading {
+  animation: LOADING 1s ease-in infinite;
+}
+
+@keyframes LOADING {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
 @media only screen and (min-width : 0px) { 
   .mail {
     display: none;
@@ -243,7 +257,7 @@ section.page.active {
     right: 10%; 
   }
 
-  body > .content {
+  #home {
     width: 60%;
     margin-left: 20%;
   }

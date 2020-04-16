@@ -45,13 +45,11 @@ var LIBROS = [
 var loadArray = function (datasetArray, option) {
   datasetArray.forEach((element, key) => {
     var id = option + (key + 1);
-    console.log(id, 'what');
     var _img = document.getElementById(id);
     var newImg = new Image;
     newImg.onload = function () {
       _img.style.backgroundImage = "url(" + this.src + ")";
       _img.classList.remove("loading");
-      console.log('ready', this.src);
     }
     newImg.src = element;
   });
@@ -89,7 +87,6 @@ window.onload = function () {
   var BACK_LIBROS = document.getElementById('librosBack');
 
   var changeRoute = function (event) {
-    console.log(event.target.dataset.name, 'open this');
     loadSection(event.target.dataset.name);
     document.getElementById(event.target.dataset.name).classList.add("active");
   }
@@ -104,7 +101,6 @@ window.onload = function () {
   document.getElementById('bigimagecontainer').addEventListener("click", closeImage);
 
   var closeImage = function (event) {
-    console.closeImage('yea');
     document.getElementById('bigimagecontainer').classList.remove(event.target);
   }
 

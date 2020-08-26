@@ -39,7 +39,6 @@ var LIBROS = [
   'https://soyjehu.github.io/assets/libroscompletos/ComediantesDeprimidos.png',
   'https://soyjehu.github.io/assets/libroscompletos/FuiArrastradoDebajoDeLaCamaPorUnDemonio-Jehu.png',
   'https://soyjehu.github.io/assets/libroscompletos/La-luz-que-no-ilumina-todo-Jehu-1.png',
-  'https://soyjehu.github.io/assets/libroscompletos/La-senora-que-volaba.png',
 ];
 
 var loadArray = function (datasetArray, option) {
